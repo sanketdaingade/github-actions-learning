@@ -1,0 +1,11 @@
+name: fctp hello world github  Action 1st session
+
+on: 
+  workflow_dispatch:
+
+  jobs: 
+    say-hello-inline-bash: 
+      runs-on: ubuntu:latest
+      steps:
+        - run: echo"hello students this is first hello world linux github action"
+        
